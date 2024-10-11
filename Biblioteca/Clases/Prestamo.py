@@ -16,8 +16,7 @@ class Prestamo:
         return fecha_dt.strftime('%Y-%m-%d')
 
     def calcular_fecha(self):
-        return self.sumar_dias(5)  # Ejemplo: suma 5 días al préstamo
-
+        return self.sumar_dias(5)  
     def marcar_devuelto(self):
-        self.fecha_devuelto = datetime.now().strftime('%Y-%m-%d')  # Marca la fecha de devolución actual
+        self.fecha_devuelto = datetime.now().strftime('%Y-%m-%d')  
 

@@ -7,7 +7,7 @@ class DetalleLibro:
         self.id_detalle_libro = id_detalle_libro
         self.fecha_edicion = fecha_edicion
         self.numero_paginas = numero_paginas
-        self.id_categoria_libro = id_categoria_libro  # Referencia a CategoriaLibro
+        self.id_categoria_libro = id_categoria_libro 
         self.cantidad_ejemplares = cantidad_ejemplares
         self.ejemplares_disponibles = ejemplares_disponibles
 
