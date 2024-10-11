@@ -1,0 +1,13 @@
+Supongamos que tenemos que  diseñar un sistema de gestión de una biblioteca. Deberás identificar las clases, atributos y relaciones entre ellas.
+
+Ejemplo -------
+
+Libro: Representa un libro en la biblioteca.
+Atributos: título, autor, número de páginas, número de copias disponibles.
+
+Miembro: Representa a un miembro de la biblioteca (persona que puede tomar prestados libros).
+Atributos: nombre, número de identificación, libros prestados.
+
+Biblioteca: Representa la biblioteca en sí misma.
+Atributos: nombre, dirección.
+Métodos: buscar_libro(), prestar_libro(), devolver_libro().
