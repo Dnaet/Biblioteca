@@ -11,3 +11,4 @@ Atributos: nombre, número de identificación, libros prestados.
 Biblioteca: Representa la biblioteca en sí misma.
 Atributos: nombre, dirección.
 Métodos: buscar_libro(), prestar_libro(), devolver_libro().
+

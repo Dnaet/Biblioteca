@@ -1,0 +1,18 @@
+import re
+
+class Editorial:
+    def __init__(self, id_editorial, nombre_editorial, fecha_fundacion, cod_pais, telefono_editorial, correo_editorial):
+        self.id_editorial = id_editorial
+        self.nombre_editorial = nombre_editorial
+        self.fecha_fundacion = fecha_fundacion
+        self.cod_pais = cod_pais
+        self.telefono_editorial = telefono_editorial
+        self.correo_editorial = correo_editorial
+
+    def validar_correo(self):
+        regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+        return re.fullmatch(regex, self.correo_editorial) is not None
+
+    def info(self):
+        return f"Editorial: {self.nombre_editorial}, Fundada: {self.fecha_fundacion}, " \
+               f"Teléfono: {self.telefono_editorial}, Correo: {self.correo_editorial}"
