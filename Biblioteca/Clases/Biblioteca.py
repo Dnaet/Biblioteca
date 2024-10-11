@@ -6,13 +6,13 @@ class Biblioteca:
         self.telefono_biblioteca = telefono_biblioteca
 
     def buscar_libro(self, isbn):
-        pass  # Implementación para buscar un libro por ISBN
+        pass  
 
     def devolver_libro(self, libro):
-        pass  # Implementación para devolver un libro
+        pass  
 
     def prestar_libro(self, libro, usuario):
-        pass  # Implementación para prestar un libro a un usuario
+        pass  
 
     def info(self):
         return f"Biblioteca: {self.nombre_biblioteca}, Dirección: {self.direccion_biblioteca}, Teléfono: {self.telefono_biblioteca}"
