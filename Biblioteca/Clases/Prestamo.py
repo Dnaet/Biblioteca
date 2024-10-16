@@ -19,4 +19,4 @@ class Prestamo:
         return self.sumar_dias(5)  
     def marcar_devuelto(self):
         self.fecha_devuelto = datetime.now().strftime('%Y-%m-%d')  
-
+    
